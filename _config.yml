@@ -88,5 +88,3 @@ deploy:
   type: git
   repo:
         github: git@github.com:liulin2012/liulin2012.github.io.git,master
-	gitcafe: git@gitcafe.com:liulin2012/liulin2012.git,gitcafe-pages
-	    

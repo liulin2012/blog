@@ -19,6 +19,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
+about_dir: about
 permalink_defaults:
 
 # Directory
@@ -81,6 +82,7 @@ disqus_shortname:
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 plugins:
 - hexo-math
+- hexo-generator-feed
 theme: jacman
 exclude_generator:
 

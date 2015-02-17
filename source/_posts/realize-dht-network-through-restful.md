@@ -82,7 +82,7 @@ The RESTful([**Representational state transfer**](http://en.wikipedia.org/wiki/R
 
 In the client side,the client send the **http request** to the server side and get a Response from the server.
 
-[php highlight="3-6,19"]
+```java
 private Response getRequest(URI uri) {
 		try {
 			Response cr = client.target(uri)
@@ -108,19 +108,18 @@ public String[] get(NodeInfo n, String k) throws Failed{
 			return response.readEntity(tableRowType).getValue().vals;
 		}
 	}
-[/php]
+```
 
 In the server side,you can use the annotation to identify the path and response the request.
 
-[php]
+{%code lang:java%}
 	@GET
 	@Path(&quot;info&quot;)
 	@Produces(&quot;application/xml&quot;)
 	public Response getNodeInfoXML() {
 		return new NodeService(headers, uriInfo).getNodeInfo();
 	}
-
-[/php]
+{% endcode%}
 
 The more detail about the RESTful you can see the wiki and the paper in the UCI.
 

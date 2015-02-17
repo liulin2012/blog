@@ -1,6 +1,11 @@
 title: The prime contest
 date: 2015-02-17 01:37:34
+categories:
+- Algorithm
 tags:
+- Algorithm
+- C++
+- multithread
 ---
 #Overview
 sum the primes from a to b, inclusive, a < b <= $10^{14}$.

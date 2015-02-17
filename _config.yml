@@ -79,6 +79,8 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
+plugins:
+- hexo-math
 theme: jacman
 exclude_generator:
 
@@ -88,3 +90,4 @@ deploy:
   type: git
   repo:
         github: git@github.com:liulin2012/liulin2012.github.io.git,master
+

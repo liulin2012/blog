@@ -7,13 +7,14 @@ tags:
 - C++
 - multithread
 ---
-#Overview
+##Overview
 sum the primes from a to b, inclusive, a < b <= $10^{14}$.
 Measure how long it takes your algorithm to sum the primes from 1 to $10^9$.
 Determine the complexity of your algorithm and calculate how long it would take to sum for a=1, b = $10^{12}$.
 
 ##Algorithm
 I have used the [Sieve_of_Eratosthenes ](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)algorithm to delete the primes from the vector.
+<!--more-->
 
 ##Multi-thread
 I have used the multithread technology to speed up the program.I have test some data.You can change the thread number to check the answer and find the best thread number in this experiment.

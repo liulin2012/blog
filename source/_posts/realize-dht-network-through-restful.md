@@ -11,7 +11,9 @@ date: 2014-11-07 23:53:34
 # 1.DHT Network
 
 > DHT([Distributed Hash Tables](http://en.wikipedia.org/wiki/Distributed_hash_table "DHT"))is a class of a decentralized [distributed system](http://en.wikipedia.org/wiki/Distributed_computing "Distributed computing") that provides a lookup service similar to a [hash table](http://en.wikipedia.org/wiki/Hash_table "Hash table"); (_key_, _value_) pairs are stored in a DHT, and any participating [node](http://en.wikipedia.org/wiki/Node_(networking) "Node (networking)") can efficiently retrieve the value associated with a given key. Responsibility for maintaining the mapping from keys to values is distributed among the nodes, in such a way that a change in the set of participants causes a minimal amount of disruption. This allows a DHT to scale to extremely large numbers of nodes and to handle continual node arrivals, departures, and failures.
+
 The key idea for the DHT network is utilize the pair(key,value) to  store and retrieve the data in distributed system.
+<!--more-->
 
 1:Every resource has a unique** pair(key,value)** to distinguish.
 
@@ -74,7 +76,6 @@ If the key value is bigger than any number of the finger table,use the biggest o
 Figure 4 show the detail about the route process.
 
 > So,what is the **algorithm complexity**?It is same to the finger table size!With high probability, Chord contacts O(log N) nodes to find a successor in an N-node network.
-<!--more-->
 
 # 2.RESTful
 

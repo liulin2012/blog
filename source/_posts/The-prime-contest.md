@@ -50,7 +50,7 @@ If you have any question,be free to contact me.Thank you!
 
 * Author:lin
 * Email:liulin.jacob@gmail.com
-* Code Address:[The prime contest](https://github.com/liulin2012/CPE593/tree/master/prime)
+* Code Address:[The prime contest](https://github.com/liulin2012/CPE593/blob/master/HW1b/main.cpp)
 
 
 
